@@ -133,29 +133,29 @@
 									<div class="col-md-3 skill-column">	
 										<div class="skill-grid">
 											<div class="circle" id="circles-1"></div>
-											 <h3>JAVASCRIPT</h3>
-											 <p>这个只会一点点</p>	
+											 <h3>C++</h3>
+											 <p>面向对象第一步</p>
 										 </div>								  
 									</div>
 									<div class="col-md-3 skill-column">	
 										<div class="skill-grid">
 											<div class="circle" id="circles-2"></div>		
-											 <h3>ANDROID</h3>	
-											 <p>我可以用安卓做很多小软件哦</p>
-										 </div>								  
-									</div>
-									<div class="col-md-3 skill-column">	
-										<div class="skill-grid">
-											<div class="circle" id="circles-3"></div>
-											 <h3>JAVA</h3>	
+											 <h3>JAVA</h3>
 											 <p>Java是世界上最好的语言</p>
 										 </div>								  
 									</div>
 									<div class="col-md-3 skill-column">	
 										<div class="skill-grid">
+											<div class="circle" id="circles-3"></div>
+											 <h3>ANDROID</h3>
+											 <p>做过几个android项目</p>
+										 </div>								  
+									</div>
+									<div class="col-md-3 skill-column">	
+										<div class="skill-grid">
 											<div class="circle" id="circles-4"></div>									
-											 <h3>C++</h3>	
-											 <p>面向对象的第一步</p>
+											 <h3>JAVASCRIPT</h3>
+											 <p>这个只会语法……</p>
 										 </div>								  
 									</div>
 									<div class="clearfix"> </div>
@@ -168,16 +168,17 @@
 									var colors = [
 											['#fff', '#2980b9'], ['#fff', '#2980b9'], ['#fff', '#2980b9'], ['#fff', '#2980b9']
 										];
+									var percentages = [53, 40, 25, 8, 0]
 									for (var i = 1; i <= 6; i++) {
 										var child = document.getElementById('circles-' + i),
-											percentage = 50 + (i * 10);
+											percentage = percentages[i - 1];
 											
 										Circles.create({
 											id:         child.id,
 											percentage: percentage,
 											radius:     80,
 											width:      15,
-											number:   	percentage / 10,
+											number:   	percentage,
 											text:       '%',
 											colors:     colors[i - 1]
 										});
