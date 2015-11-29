@@ -36,7 +36,7 @@
 				<h3 class="top-title">About Me</h3>
 				<span class="line"></span>
 				<p class="about-p">为了理解递归，我们首先要理解的是递归。 </p>
-				<p>我爱编程，也爱设计；我爱奋斗，也享受生活；不是盖茨，不是乔布斯，不是大人物，我是路人甲；我没什么特别，我很特别；我和别人不一样，我和你一样，我是程序员。</p>
+				<p>我爱编程，也爱设计；我爱奋斗，也享受生活；我爱最新的手机，更爱高性能笔记本；不是盖茨，不是乔布斯，不是大人物，我是路人甲；我没什么特别，我很特别；我和别人不一样，我和你一样，我是程序员。</p>
 				<div class="row about-row">
 					<div class="col-md-4 about-row-column">
 						<ul class="about-details">
